@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+  font-family: "Work Sans", sans-serif;
+  overflow: hidden;
+}
+
+.directions h1, .directions h2 {
+  font-family: Anton;
+}
+
+.directions p {
+  font-family: Poor Story;
+  font-size: 22px;
+}
+
+.falling {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.box {
+  border: 3px solid #ffffff;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: -160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 900;
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.info {
+  position: absolute;
+  z-index: 99;
+  border: 3px solid #ffffff;
+  background-color: rgb(255, 242, 242);
+  width: 70%;
+  margin-left: 15%;
+  height: 0px;
+  border-radius: 8px;
+}
+
+.panel {
+  display: none;
+}
+
+.sizes {
+  text-align: center;
+  height: 350px;
+}
+
+.sizes .threex3, .sizes .fourx4, .sizes .fivex4, .sizes .sixx4  {
+  margin-top: 100px;
+  margin-left: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+}
+
+.sizes .threex3:hover, .sizes .fourx4:hover, .sizes .fivex4:hover, .sizes .sixx4:hover {
+    background-color: rgb(0, 191, 255);
+    cursor: pointer;
+}
+
+
+
+.game {
+  top: -800px;
+}
+
+
+
+.body {
+  top: 1000px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.finished {
+  display: none;
+  top: 400px;
+  position: absolute;
+  z-index: 99;
+  border: 3px solid #ffffff;
+  background-color: white;
+  width: 74%;
+  margin-left: 13%;
+  height: 0px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finished h2 {
+  font-size: 50px;
+  font-family: Anton;
+  text-align: center;
+}
